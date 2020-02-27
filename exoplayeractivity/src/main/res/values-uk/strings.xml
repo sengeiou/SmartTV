@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name_exo">Smart YouTube TV 4K</string>
+
+    <string name="options">Додатк</string>
+    <string name="home">Додому</string>
+    <string name="user_page">Канал</string>
+    <string name="prev_video">Попер</string>
+    <string name="next_video">Слід</string>
+    <string name="pause">Пауза</string>
+    <string name="play">Грати</string>
+    <string name="dislike">Неподоб</string>
+    <string name="like">Подоб</string>
+    <string name="stats">Інформ</string>
+    <string name="subscribe">Підпис</string>
+    <string name="quality">Якість</string>
+    <string name="video">Відео</string>
+    <string name="audio">Аудіо</string>
+    <string name="text">Субтитри</string>
+    <string name="retry">Повтор</string>
+    <string name="selection_disabled">Відкл. стрічку</string>
+    <string name="selection_default">Авто. якість</string>
+    <string name="captions">Субтітри</string>
+    <string name="not_implemented_msg">Функціонал поки що не реалізован</string>
+    <string name="published">Опубліковано</string>
+    <string name="view_count">переглядів</string>
+    <string name="suggested_videos">Рекомендовані відео</string>
+    <string name="autoframerate_not_supported">Ваш пристрій не підтримує Автофреймрейт</string>
+    <string name="enable_autoframerate">Автофреймрейт</string>
+    <string name="share_video">Надісл</string>
+    <string name="send_to">Надіслати у</string>
+    <string name="hide_playback_errors">Приховувати помилки відтворення</string>
+    <string name="no_subtitle_msg">Відео не містить субтитри</string>
+    <string name="time_title">Зараз: %1$s</string>
+    <string name="btn_restrict_codec">Пресет</string>
+    <string name="loading_view_message">ЗАВАНТАЖЕННЯ...</string>
+    <string name="select_preferred_codec">Выбрати відео пресет</string>
+</resources>

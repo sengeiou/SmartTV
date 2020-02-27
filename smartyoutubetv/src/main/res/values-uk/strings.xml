@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="webview_desc">1080 Основний</string>
+    <string name="xwalk_desc">1080 Додатков.</string>
+    <string name="exo_desc">4K Основний</string>
+    <string name="exo_desc2">4K Додатков.</string>
+    <string name="bootstrap_main_title">Будьласка, оберіть версію YouTube</string>
+    <string name="starting_popup">Запуск із головного лаунчеру</string>
+    <string name="save_selection">Запам`ятати</string>
+    <string name="bootstrap_bottom_title">У випадку проблем, перейдіть на 4К версію</string>
+    <string name="starting_popup_fmt">Запускається %s лаунчер&#8230;</string>
+    <string name="tip_show_main_screen">Натисніть НАЗАД щоб вийти до налаштувань</string>
+    <string name="language_dialog_title">Оберіть мову</string>
+    <string name="language">Мова</string>
+    <string name="autoframerate">Автофреймрейт</string>
+    <string name="returning_to_the_video">Повертаємося до відкритого відео-ролику</string>
+    <string name="send_crash_report">Звіт про сбій</string>
+    <string name="sending_crash_report">Відсилається звіт про сбій&#8230;</string>
+    <string name="update_check">Перев. оновл.</string>
+    <string name="preferred_codec">Декодер</string>
+    <string name="select_preferred_codec">Обмежити кодек та чіткість</string>
+    <string name="no_restrictions">Без обмежень</string>
+    <string name="tip_save_selection">Не показувати цей екран у слідуючий раз</string>
+    <string name="tip_endcards">Показувати підказки наприкінці відео (тільки 1080)</string>
+    <string name="tip_language">Змінити мову</string>
+    <string name="tip_update_check">Перевіряти оновлення</string>
+    <string name="webview_tip">До 1080p на більшості пристроїв</string>
+    <string name="xwalk_tip">До 1080p і деколи більш стабільна робота</string>
+    <string name="exo_tip">До 4K на більшості пристроїв</string>
+    <string name="exo_alt_tip">До 4K і деколи більш стабільна робота</string>
+    <string name="exit_msg">Натисніть Назад ще раз щоб вийти</string>
+    <string name="error_host_lookup">Нема интернету: %s</string>
+    <string name="error_unknown">Помилка з\'єднання: %s</string>
+    <string name="large_btn_title_main">Основний</string>
+    <string name="large_btn_title_alt">Додатков.</string>
+    <string name="title_exo_main">PRO Основний</string>
+    <string name="title_exo_alt">PRO Додатков.</string>
+    <string name="title_webview">LITE Основний</string>
+    <string name="title_xwalk">LITE Додатков.</string>
+    <string name="tip_show_main_screen_2">Натисніть НАЗАД щоб вийти до налаштувань</string>
+</resources>

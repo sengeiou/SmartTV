@@ -1,0 +1,12 @@
+<!-- Simplified Chinese translation -->
+<resources>
+    <string name="webview_desc">MiBox，FireTV等</string>
+    <string name="xwalk_desc">MiTV等设备</string>
+    <string name="exo_desc">4K：MiTV等</string>
+    <string name="bootstrap_main_title">请选择所需的YouTube版本</string>
+    <string name="exo_desc2">4K:替代版本</string>
+    <string name="bootstrap_bottom_title">要再次显示此对话框，请退出该应用程序</string>
+    <string name="tip_show_main_screen">按返回按钮返回到启动器对话框</string>
+    <string name="save_selection">记得</string>
+    <string name="language">Language</string>
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name_exo">Smart YouTube TV 4K</string>
+
+    <string name="options">Optionen</string>
+    <string name="home">Start</string>
+    <string name="user_page">Benutzerseite</string>
+    <string name="prev_video">Vor. Video</string>
+    <string name="next_video">Näch. Video</string>
+    <string name="pause">Pause</string>
+    <string name="play">Abspielen</string>
+    <string name="dislike">Gefällt mir nicht</string>
+    <string name="like">Gefällt mir</string>
+    <string name="stats">Statistiken</string>
+    <string name="subscribe">Abonnieren</string>
+    <string name="quality">Qualität</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="text">Untertitel</string>
+    <string name="retry">Wiederholen</string>
+    <string name="selection_disabled">Track deaktivieren</string>
+    <string name="selection_default">Standardqualität</string>
+    <string name="captions">Untertitel</string>
+    <string name="not_implemented_msg">Noch nicht implementiert</string>
+    <string name="published">Veröffentlicht</string>
+    <string name="view_count">Aufrufe</string>
+    <string name="suggested_videos">Vorgeschlagene Videos</string>
+    <string name="autoframerate_not_supported">Ihr Gerät unterstützt Autoframerate nicht</string>
+    <string name="share_video">Teilen</string>
+    <string name="send_to">Senden an</string>
+    <string name="no_subtitle_msg">Das Video enthält keine Untertitel</string>
+    <string name="select_preferred_codec">Wählen Sie den Codec</string>
+</resources>

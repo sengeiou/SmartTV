@@ -1,0 +1,88 @@
+apply plugin: 'com.android.library'
+
+
+android {
+    // FIX: Default interface methods are only supported starting with Android N (--min-api 24)
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    // allow other modules import debug/release configurations
+    //publishNonDefault true
+
+    compileSdkVersion project.properties.compileSdkVersion
+    buildToolsVersion project.properties.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion project.properties.minSdkVersion
+        targetSdkVersion project.properties.targetSdkVersion
+        versionCode 22
+        versionName "0.7.2"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // gradle 4.6 migration: disable dimensions mechanism
+    // more: https://proandroiddev.com/advanced-android-flavors-part-4-a-new-version-fc2ad80c01bb
+    flavorDimensions "default"
+
+    productFlavors {
+        lite {}
+        full {}
+        Vkids {
+            matchingFallbacks = ['lite']
+        }
+    }
+
+    lintOptions {
+        abortOnError true
+        lintConfig rootProject.file('lint.xml')
+    }
+}
+
+dependencies {
+    androidTestImplementation(project.properties.espressoCoreVersion, {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testImplementation project.properties.junitVersion
+
+    implementation project(path: ':sharedutils')
+
+    implementation project(path: ':common')
+
+    // gradle 4.6 migration
+    implementation project(path: ':browser')
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project.properties.appCompatXVersion
+    implementation project.properties.constraintLayoutXVersion
+    implementation project.properties.collectionXVersion
+
+    api project.properties.amazonExoplayerVersion
+    // api project.properties.exoplayerVersion
+
+    implementation project.properties.amazonExoplayerOkHttpVersion
+    // implementation project.properties.exoplayerOkHttpVersion
+
+    // include vp9 extension
+    // NOTE: NoSuchMethodError when using 'transitive' prop
+    // implementation project(path: ':exoplayer-extension-vp9')
+
+    implementation project.properties.previewSeekBarDevVersion
+    implementation project.properties.previewSeekBarExoDevVersion
+
+    implementation project.properties.glideVersion
+    annotationProcessor project.properties.annotationXVersion
+    annotationProcessor project.properties.glideCompilerVersion
+
+    implementation project.properties.multiDexVersion
+}

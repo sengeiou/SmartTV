@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/controls_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:visibility="gone">
+    <!-- NOTE: all contents will be replaced dynamically! See PlayerActivity#updateButtonVisibilities() -->
+
+    <com.liskovsoft.smartyoutubetv.flavors.exoplayer.widgets.TextToggleButton
+        android:id="@+id/retry_button"
+        style="@style/ExoMediaButton2.Retry"
+        android:visibility="gone"/>
+</LinearLayout>
